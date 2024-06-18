@@ -39,21 +39,7 @@ export default function App() {
     },
     headerTintColor: 'black',
   }
-  // function Home() {
-  //   return (
-  //     <Drawer.Navigator>
-  //       <Drawer.Screen name="Home" component={Home} />
-  //       <Drawer.Screen name="article" component={Article} />
-  //     </Drawer.Navigator>
-  //   )
-  // }
-  // function Article() {
-  //   return (
-  //     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-  //       <Text>Article Screen</Text>
-  //     </View>
-  //   );
-  // }
+
   const ProfileStack = ({navigation}) => (
     <Stack.Navigator>
       <Stack.Screen
